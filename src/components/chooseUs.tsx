@@ -11,7 +11,7 @@ function ChooseUs() {
                         <img src="../images/wallet.png" alt="wallet" className="icon"/>
                         <div>
                             <h3>CONNECT YOUR WALLET</h3>
-                            <p>Use Trust Wallet, Metamask or to connect to the app.</p>
+                            <p>Use Trust Wallet or Metamask to connect to the app.</p>
                         </div>
                     </div>
                     <div className="reason">
@@ -49,7 +49,7 @@ function ChooseUs() {
                     <div className="reason">
                         <img src="../images/manage.png" alt="manage" className="icon"/>                        <div>
                             <h3>DRIVE YOUR COLLECTION</h3>
-                            <p>We make it easy to Discover, Invest and manage.</p>
+                            <p>We make it easy to discover, invest and manage.</p>
                         </div>
                     </div>
                 </div>
