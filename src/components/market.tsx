@@ -33,7 +33,7 @@ function Market() {
 
     return (
         <div className="market-container">
-            <button onClick={handleOnClick}>
+            <button onClick={handleOnClick} className="roll-back-top">
                 <img src="../images/up-arrow.png" alt="" />
             </button>
             <h2>Market Update</h2>
