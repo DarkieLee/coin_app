@@ -1,0 +1,92 @@
+.market-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button.roll-back-top {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 50%;
+    width: 3.5vw;
+    z-index: 99;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button.roll-back-top:hover {
+    background-color: brown;
+    transition: 0.5s;
+}
+
+button img {
+    width: 3.5vw;
+    height: 5vh;
+    filter: invert(1);
+}
+
+
+
+h2 {
+    margin: 40px 0;
+    font-size: 5rem;
+}
+
+.coin-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.table-first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(188, 122, 0);
+    margin-top: 20px;
+}
+
+.column-name {
+    margin: 10px 30px;
+    width: 25%;
+    font-size: 1.5rem;
+}
+
+.coin-rows {
+    width: 100%;
+    display: inline-block;
+}
+
+.coin-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.coin-info:hover {
+    cursor: pointer;
+    background-color: rgb(103, 103, 176);
+    transition: 0.5s;
+}
+.coin-info div {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-info div img {
+    max-width: 30px;
+    padding: 0;
+    margin: 0 10px;
+}
