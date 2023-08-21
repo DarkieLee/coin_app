@@ -6,11 +6,10 @@
 }
 
 body {
-    background-image: radial-gradient(rgb(96, 3, 103),rgb(0, 57, 26));
+    background-image: radial-gradient(rgb(116, 2, 9),rgb(0, 37, 85));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* overflow-y: hidden; */
 }
 
 .nav-bar {
@@ -60,17 +59,36 @@ nav div {
 
 }
 
-nav div img {
-    max-width: 25px;
-    margin: 0 8px;
-    transition: 0.5s;
-    filter: invert(1);
+nav div.submit-buttons button {
+    margin: 0 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
 }
 
-nav div img:hover {
-    transform: scale(1.5);
+.login-btn {
+    color: blue;
+    border: 1px solid blue;
 }
 
+.login-btn:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+
+.sign-up-btn {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
+.sign-up-btn:hover {
+    cursor: pointer;
+    background-color: rgb(3, 206, 3);
+    border: 1px solid white;
+}
 h2, p {
     color:white;
 }
