@@ -18,8 +18,9 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px 70px;
-    background-color: black;
+    background-color: rgba(38, 38, 38);
     z-index: 1;
+    box-shadow: 1px 1px 8px 1px #888888;
 }
 
 nav a.logo {
