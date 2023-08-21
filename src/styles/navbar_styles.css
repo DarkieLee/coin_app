@@ -10,6 +10,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .nav-bar {
@@ -17,13 +19,14 @@ body {
     top: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 70px;
     background-color: rgba(38, 38, 38);
     z-index: 1;
     box-shadow: 1px 1px 8px 1px #888888;
 }
 
-nav a.logo {
+.nav-bar a.logo {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 25px;
@@ -31,36 +34,37 @@ nav a.logo {
 }
 
 
-nav ul {
+.nav-bar ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul li {
+.nav-bar ul li {
     list-style: none;
     margin: 0 20px;
+    text-align: center;
 }
 
-nav ul li a {
+.nav-bar ul li a {
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
 
-nav ul li a:hover, nav a.logo:hover {
+.nav-bar ul li a:hover, .nav-bar a.logo:hover {
     transition: 0.6s;
     color: orange;
 }
 
-nav div {
+.nav-bar div {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-nav div.submit-buttons button {
+.nav-bar div.submit-buttons button {
     margin: 0 10px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,4 +96,14 @@ nav div.submit-buttons button {
 }
 h2, p {
     color:white;
+}
+
+@media (max-width: 770px) {
+    .nav-bar, .nav-bar ul {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .nav-bar ul li {
+        margin: 5px 0;
+    }
 }
