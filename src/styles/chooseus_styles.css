@@ -64,6 +64,15 @@ h2 {
     margin: 7.5px 0;
 }
 
-
+@media (max-width: 900px) {
+    .reasons-table {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left-column, .center-image, .right-column, .reason {
+        width: 100%;
+    }
+}
 
 
