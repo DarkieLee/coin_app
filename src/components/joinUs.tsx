@@ -2,11 +2,11 @@ import "../styles/joinus_styles.css"
 
 function JoinUs() {
     return (
-        <div>
+        <div className="joinus-container" id="joinus">
             <h2>join us today</h2>
             <p className="second-line">on social media</p>
             <p className="third-line">connect with people sharing the same interest as yours</p>
-            <div className="join-us-container">
+            <div className="join-us">
                 <div className="icon-rows">
                     <a href="https://discord.com/" target="_blank">
                         <img src="/images/discord.png" alt="discord" />
