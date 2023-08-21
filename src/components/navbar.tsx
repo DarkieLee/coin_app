@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom"
-import "../styles/styles.css"
+import "../styles/navbar_styles.css"
 function NavBar() {
     return (
-        <nav>
+        <nav className="nav-bar">
             <NavLink to="/" className="logo">
                 CoinMarket
             </NavLink>
@@ -17,22 +17,12 @@ function NavBar() {
                     <NavLink to="/chooseus">Choose Us</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/joineus">Join Us</NavLink>
+                    <NavLink to="/joinus">Join Us</NavLink>
                 </li>
             </ul>
-            <div>
-                <a href="https://discord.com/" target="_blank">
-                    <img src="/images/discord.png" alt="discord" />
-                </a>
-                <a href="https://facebook.com/" target="_blank">
-                    <img src="/images/facebook.png" alt="facebook" />
-                </a>
-                <a href="https://instagram.com/" target="_blank">
-                    <img src="/images/instagram.png" alt="instagram" />
-                </a>
-                <a href="https://twitter.com/" target="_blank">
-                    <img src="/images/x-twitter.png" alt="x-twitter" />
-                </a>
+            <div className="submit-buttons">
+                <button type="submit" className="login-btn">Login</button>
+                <button type="submit" className="sign-up-btn">Sign Up</button>
             </div>
         </nav>
     )
