@@ -4,7 +4,7 @@ function NavBar() {
     return (
         <nav className="nav-bar">
             <NavLink to="/" className="logo">
-                CoinMarket
+                CryptoMarket
             </NavLink>
             <ul>
                 <li>
