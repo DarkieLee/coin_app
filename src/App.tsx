@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import NavBar from './components/navbar'
 import Home from './components/home'
 import Market from './components/market'
