@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0 m-0 box-border font-sans
+    }
+    body {
+        @apply bg-gradient-radial from-[#740209] to-[#002555] bg-cover bg-center bg-no-repeat w-full h-full
+    }
+}
+
+.list {
+    list-style: none;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.reason {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(209, 206, 206, 0.261);
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid rgba(175, 175, 175, 0.685);
+    border-radius: 25px;
+}
+

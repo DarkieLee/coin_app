@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "../styles/home_styles.css"
 
 interface Obj {
     id: string,
@@ -27,15 +26,15 @@ function Home() {
     }, []);
     
     return (
-        <div className="home-container">
-            <h2>track and trade <br />
+        <div className="m-[10vh] h-screen">
+            <h2 className="text-white uppercase text-[7vw] leading-none text-center font-semibold">track and trade <br />
             crypto currencies
             </h2>
-            <div className="coin-container">
+            <div className="flex justify-around m-[30px] sm:flex-col">
                 {data.map((item: Obj) => (
-                    <span className="coin-display">
-                        <img src={item?.image} alt={item.id} key={item?.id} className="coin-image"/>
-                        <p>{item?.name} <br />
+                    <span className="flex flex-col justify-center items-center text-center">
+                        <img src={item?.image} alt={item.id} key={item?.id} className="max-w-[10vw] m-[20px] animate-bounce"/>
+                        <p className="flex flex-col justify-center items-center text-center text-white">{item?.name} <br />
                             {"$" + item?.current_price}
                         </p>
                         <p style={{color: item?.price_change_percentage_24h >= 0 
