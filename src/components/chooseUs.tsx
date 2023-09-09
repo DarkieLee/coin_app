@@ -1,7 +1,7 @@
 function ChooseUs() {
     return (
         <div className="flex flex-col justify-center items-center">
-            <h2 className="uppercase text-[5rem] leading-none font-semibold mt-[70px] text-white"> why choose us</h2>
+            <h2 className="uppercase text-[5rem] leading-none font-semibold mt-[70px] text-white text-center"> why choose us</h2>
             
             <div className="flex flex-row justify-between w-full py-[10px] px-10 md:flex-col md:justify-center
             md:items-center">
